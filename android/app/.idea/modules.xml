@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module classpath="com.android.tools.idea.gradle.project.ModuleFactory" name="app">
+    <component name="FacetManager">
+        <facet type="android-gradle" name="Android-Gradle">
+            <configuration>
+                <option name="GRADLE_PROJECT_PATH" value=":app" />
+            </configuration>
+        </facet>
+        <facet type="android" name="Android">
+            <configuration>
+                <option name="ALLOW_USER_CONFIGURATION" value="false" />
+                <option name="GEN_FOLDER_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/gen" />
+                <option name="MANIFEST_FILE_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/src/main/AndroidManifest.xml" />
+                <option name="RES_FOLDER_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/src/main/res" />
+                <option name="RESOURCES_FRAME_FACET_TYPE" value="android" />
+                <option name="SAME_MODEL_MODULE_DIR" value="" />
+                <option name="SRC_FOLDER_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/src/main/java" />
+                <option name="ASSETS_FOLDER_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/src/main/assets" />
+                <option name="LIBS_FOLDER_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/src/main/libs" />
+                <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH_FROM_CONTENT_ROOT" value="/proguard_logs" />
+            </configuration>
+        </facet>
+    </component>
+</module>
