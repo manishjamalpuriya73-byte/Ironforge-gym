@@ -1,0 +1,106 @@
+name: ironforge_gym
+description: A modern, premium Gym Workout App for Android and iOS with comprehensive workout plans, progress tracking, and personalized fitness guidance.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Design
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_staggered_animations: ^1.1.1
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  fl_chart: ^0.65.0
+  percent_indicator: ^4.1.1
+  step_progress_indicator: ^1.0.2
+  intl: ^0.19.0
+  
+  # State Management
+  provider: ^6.0.0
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+  
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  firebase_analytics: ^10.7.0
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  
+  # Networking
+  dio: ^5.3.1
+  http: ^1.1.0
+  
+  # Utilities
+  uuid: ^4.0.0
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.4.4
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.1
+  video_player: ^2.8.1
+  logger: ^2.0.2
+  
+  # Navigation
+  go_router: ^12.0.0
+  
+  # Local Notifications
+  flutter_local_notifications: ^14.1.0
+  timezone: ^0.9.2
+  
+  # Animation
+  animations: ^2.0.7
+  
+  # Health & Fitness
+  health: ^10.1.0
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.0
+  freezed_annotation: ^2.4.1
+  freezed: ^2.4.1
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/json/exercises.json
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
