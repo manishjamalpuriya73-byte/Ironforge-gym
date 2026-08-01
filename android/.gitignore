@@ -1,0 +1,33 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+forge-config/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .gradle folder (generated files)
+.gradle/
+
+# Signing files
+.signing/
+
+# User-specific configurations
+.classpath
+.project
+.settings/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
